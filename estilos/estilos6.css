@@ -1,0 +1,79 @@
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.fondo {
+    background: url(../imagenes/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.imagen {
+    height: 2rem;
+    position: absolute;
+    right: 23rem;
+    bottom: 43.4rem;
+}
+
+.imagen0 {
+    height: 1rem;
+    position: absolute;
+    right: 26rem;
+    bottom: 43.4rem;
+}
+
+@media (min-width:760px) {
+    .imagen {
+        height: 10rem;
+        position: absolute;
+        right: 90rem;
+        bottom: 41rem;
+    }
+    .imagen0 {
+        height: 3rem;
+        position: absolute;
+        right: 101rem;
+        bottom: 43rem;
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+@media (min-width: 460px) {
+    .links a {
+        color: black;
+        text-decoration: none;
+        font-size: 3rem;
+        font-family: fantasy;
+        padding-right: 3rem;
+        padding-top: 3rem;
+    }
+}
+
+.links a:hover {
+    color: rgb(10, 10, 10);
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
